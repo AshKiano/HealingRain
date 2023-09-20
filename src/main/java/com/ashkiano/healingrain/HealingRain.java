@@ -9,6 +9,8 @@ public class HealingRain extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new RainListener(this), this);
+
+        Metrics metrics = new Metrics(this, 19844);
     }
 
     @Override

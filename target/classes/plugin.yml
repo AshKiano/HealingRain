@@ -1,0 +1,9 @@
+name: HealingRain
+version: '1.0'
+main: com.ashkiano.healingrain.HealingRain
+api-version: '1.16'
+author: AshKiano
+commands:
+  gethealingrain:
+    description: Get the Healing Rain item.
+    usage: /<command>

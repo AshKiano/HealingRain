@@ -11,6 +11,8 @@ public class HealingRain extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new RainListener(this), this);
 
         Metrics metrics = new Metrics(this, 19844);
+
+        this.getLogger().info("Thank you for using the HealingRain plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @Override
